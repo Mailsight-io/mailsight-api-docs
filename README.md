@@ -28,6 +28,13 @@ Always add an `x-api-key` in the header of all API requests.
 }
 ```
 
+**Error Response**
+```json
+{
+	"message": "First Name not valid"
+}
+```
+
 #### Get  Last 25 Leads
 `GET https://api.mailsight.io/leads`
 
